@@ -1,0 +1,91 @@
+<html>
+ <head>
+  <title>Programmverwaltung</title>
+ </head>
+
+ <body>
+  In Launcher können alle Programme komfortable verwaltet werden.<br>
+  Öffnen Sie dazu die Einstellungen und gehen Sie auf Programmverwaltung.<br>
+  Die Einstellungen können über das Kontextmenü im Systray Bereich<br>
+  oder über dem Button Einstellungen im Hauptfenster geöffnet werden.<br><br>
+  <IMG src="../screen_programs.gif"><br><br>
+
+  <table width="550" cellpadding ="2" cellspacing="2">
+   <tr>
+    <td valign="top" width="20" height="12"></td>
+    <td valign="top" width="535"><strong>Neues Programm eintragen</strong></td>
+   </tr>
+   <tr>
+    <td align="right" valign="top" width="20" height="17">1.</td>
+    <td valign="top" width="535" height="17">Erstellen Sie einen neuen Programmeintrag</td>
+   </tr>
+   <tr>
+    <td align="right" valign="top" width="20" height="17">2.</td>
+    <td valign="top" width="535" height="17">Geben Sie den Programmpfad an.<br>Sie können hier bei manueller Eingabe auch Variable Werte benutzen.<br>Das Programm sollte sich jedoch außer bei Variable Werte wie %windir%<br>immer auf dem Wechseldatenträger befinden.</td>
+
+   </tr>
+   <tr>
+    <td align="right" valign="top" width="20" height="17">3.</td>
+    <td valign="top" width="535" height="17">Geben Sie einen Name ein der im Menü erscheinen soll</td>
+   </tr>
+   <tr>
+    <td align="right" valign="top" width="20" height="17">4.</td>
+    <td valign="top" width="535" height="17">Geben Sie Programmparameter ein falls diese benötigt werden</td>
+   </tr>
+   <tr>
+    <td align="right" valign="top" width="20" height="17">5.</td>
+    <td valign="top" width="535" height="17">Wählen sie das Arbeitsverzeichnis aus</td>
+   </tr>
+   <tr>
+    <td align="right" valign="top" width="20" height="17">6.</td>
+    <td valign="top" width="535" height="17">Wechseln sie bei belieben das Symbol</td>
+   </tr>
+   <tr>
+    <td align="right" valign="top" width="20" height="17">7.</td>
+    <td valign="top" width="535" height="17">Legen Sie Starttyp und Autostart fest</td>
+   </tr>
+  </table>
+
+  <br>
+
+  Um Einstellungen eines vorhandenen Programmes zu ändern, klicken Sie auf einen Eintrag und ändern Sie diese.<br>
+  Alle Programme mit der Option Automatisch starten, werden beim Start von Launcher automatisch mit gestartet.<br><br>
+  Die folgenden Variablen können bei Programm, Parameter, Symbol und Arbeitsverzeichnis benutzt werden.<br>
+
+  <table width="550" cellpadding="2" cellspacing="2">
+   <tr>
+    <td align="middle" valign="top" width="110"><strong>Variable</strong></td>
+    <td align="middle" valign="top" width="420"><strong>Wert</strong></td>
+   </tr>
+   <tr>
+    <td align="middle" valign="top" width="110" height="17">%usbdrive%</td>
+    <td align="middle" valign="top" width="420" height="17">Laufwerksbuchstabe des Wechseldatenträger</td>
+   </tr>
+   <tr>
+    <td align="middle" valign="top" width="110" height="17">%exedir%</td>
+    <td align="middle" valign="top" width="420" height="17">Launcher Programmverzeichnis</td>
+   </tr>
+   <tr>
+    <td align="middle" valign="top" width="110" height="17">%windir%</td>
+    <td align="middle" valign="top" width="420" height="17">Windows Verzeichnis</td>
+   </tr>
+   <tr>
+    <td align="middle" valign="top" width="110" height="17">%sysdir%</td>
+    <td align="middle" valign="top" width="420" height="17">Windows System-Verzeichnis</td>
+   </tr>
+   <tr>
+    <td align="middle" valign="top" width="110" height="17">%tempdir%</td>
+    <td align="middle" valign="top" width="420" height="17">Temporäres Verzeichnis</td>
+   </tr>
+   <tr>
+    <td align="middle" valign="top" width="110" height="17">%homedir%</td>
+    <td align="middle" valign="top" width="420" height="17">Profile Verzeichnis des aktuell angemeldeten Benutzers</td>
+   </tr>
+   <tr>
+    <td align="middle" valign="top" width="110" height="17">%username%</td>
+    <td align="middle" valign="top" width="420" height="17">Name des aktuell angemeldeten Computer Benutzers</td>
+   </tr>
+  </table>
+
+ </body>
+</html>

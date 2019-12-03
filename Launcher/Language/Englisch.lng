@@ -1,0 +1,150 @@
+;English language file for Launcher
+;Copyright PureSoft, Detlef Kelm, 2007
+
+[Language]
+;Window Title
+WinTle_Main =                 Launcher
+WinTle_Preferences =        	Preferences
+WinTle_Informations =       	Information
+;Menu Search
+MnuItm_Drive =                This Drive
+MnuItm_Folder =               This Folder 
+MnuItm_OwnFiles =             Own Files
+nuItm_Computer =             	This Computer
+MnuItm_Internet =             Internet 
+;Menu Programms
+MnuItm_Normal =               Normal
+MnuItm_Maximize =           	Maximized
+MnuItm_Minimize =            	Minimized
+MnuItm_OpenPrgFolder =      	Opening the program folder
+;Preferences, Categorie
+PrfCtg_Programms =          	Programmanagement
+PrfCtg_Interface =            Surface
+PrfCtg_Skin =                 Skin
+PrfCtg_ProgrammsMenu =      	Programmenu
+PrfCtg_Fonts =                Fonts
+PrfCtg_Shortcuts =            Shortcuts
+PrfCtg_Folder =               Folder
+;Preferences, Programms
+PrfPrg_Name =          		    Name
+PrfPrg_Program =              Program
+PrfPrg_SearchPrg =            ...
+PrfPrg_SearcgPrgT =          	Search
+PrfPrg_Parameter =           	Parameter
+PrfPrg_Icon =                 Icon
+PrfPrg_SearchIcon =         	...
+PrfPrg_SearchIconT =       	  Search 
+PrfPrg_StartType =           	Execute
+PrfPrg_StartTypeT =         	In which modus the program should run?
+PrfPrg_StartType_1 =        	Normal
+PrfPrg_StartType_2 =        	Maximized
+PrfPrg_StartType_3 =        	Minimized
+PrfPrg_StartType_4 =        	Hidden
+PrfPrg_AutoRun =              Start automatic 
+PrfPrg_AutoRunT =           	Starts the program automatically with the launcher
+PrfPrg_PrgUpT =               Scrolling up
+PrfPrg_PrgDownT =           	Scrolling down 
+PrfPrg_PrgSortT =             Asort names
+PrfPrg_PrgAddT =             	Add program 
+PrfPrg_PrgDelT =              Delete program
+PrfPrg_PrgWrongT =          	There is a mistake in the petitions
+;Preferences, Interface
+PrfInf_Language =           	Language
+PrfInf_LanguageT =          	Selects Launcher´s language
+PrfInf_Position =             Windowposition
+PrfInf_PositionT =            Sets the position where Launcher opens
+PrfInf_Position_1 =         	Centered
+PrfInf_Position_2 =         	Top left
+PrfInf_Position_3 =         	Top right
+PrfInf_Position_4 =         	Down right
+PrfInf_Position_5 =         	Down left
+PrfInf_WinGap =             	Screen Distance 
+PrfInf_WinGapT =              Sets the Distance between Launcher and Screenframe
+PrfInf_Fading =               Transparents Effekt
+PrfInf_FadingT =              At the fade-in and fade-out of Launcher a Transparents Effekt is used
+PrfInf_AlwaysOnTop =          Always on Top
+PrfInf_AlwaysOntopT =         Launcher is Always on Top
+PrfInf_SysRCEnd =             End with right click
+PrfInf_SysRCEndT =            Ends Launcher with a click on the right at the Systray Icon
+PrfInf_OpenAtStart =          Opens at the start
+PrfInf_OpenAtStartT =         Blendet Launcher beim Start ein
+PrfInf_SpaceBar =             Display of memory cell
+PrfInf_SB_ShwSpace =          Picture free Space
+PrfInf_SB_ShwUsed =           Picture used Space
+PrfInf_SB_Percent =           In Percent
+PrfInf_SB_Spaced =            In Space
+;Preferences, Skin
+PrfSkn_Skin =     		        Skin
+PrfSkn_SkinT =                Sets the design of Launcher
+PrfSkn_Name =                 Name
+PrfSkn_Version =              Version
+PrfSkn_Autor =                Author
+PrfSkn_Homepage =            	Homepage
+PrfSkn_Preview =              Preview
+;Preferences, Programms	Menu
+PrfPgM_AdjustTxt =            Textjustification
+PrfPgM_AdjustLeft =           Left-justified 
+PrfPgM_AdjustLeftT =         	Programnames will be pictured left-justified
+PrfPgM_AdjustCenter =       	Centered
+PrfPgM_AdjustCenterT =      	Programnames will be pictured centered
+PrfPgM_AdjustRight =          Justified
+PrfPgM_AdjustRightT =        	Programname will be pictured justified
+PrfPgM_BorderGap =            Distance to the frame / border ???
+PrfPgM_BorderGapT =          	Definits distance between frame, icon and text
+PrfPgM_IcnTxtGap =            Distance between icon and text
+PrfPgM_IcnTxtGapT =         	Definits distance between icon and text
+PrfPgM_ShwIcon =            	Display symbols
+PrfPgM_ShwIconT =           	Programsymbols were displayed
+PrfPgM_Colors =             	Colours
+PrfPgM_ColorsT =            	Doubleclick for changing
+PrfPgM_Colors_C1 =          	Colour
+PrfPgM_Colors_C2 =          	Type
+PrfPgM_Colors_1 =           	Text normal
+PrfPgM_Colors_2 =           	Text mouse
+;Preferences, Fonts
+PrfFnt_Title =     		        type of lettering
+PrfFnt_FontsT =               Doubleclick for changing
+PrfFnt_Fonts_C1 =             Area or zone or domain
+PrfFnt_Fonts_C2 =             Name
+PrfFnt_Fonts_C3 =             Size
+PrfFnt_Fonts_C4 =             Cut 
+PrfFnt_Fonts_1 =              Menü normal
+PrfFnt_Fonts_2 =              Menu mousetouch 
+PrfFnt_Fonts_3 =              Procent display
+PrfFnt_Fonts_4 =              Surface area
+;Preferences, Shortcuts
+PrfShc_Title =                Shortcuts
+PrfShc_Shortcuts_C1 =       	Event or happening
+PrfShc_Shortcuts_C2 =       	Strg
+PrfShc_Shortcuts_C3 =       	Alt
+PrfShc_Shortcuts_C4 =       	Shift
+PrfShc_Shortcuts_C5 =       	Asseccory
+PrfShc_Shortcuts_1 =        	Mainfraime
+PrfShc_Shortcuts_2 =        	Programme up 
+PrfShc_Shortcuts_3 =        	Programe down
+PrfShc_Shortcuts_4 =        	Program Management
+PrfShc_Shortcuts_5 =        	Programing
+PrfShc_Shortcuts_6 =        	End
+PrfShc_Activate =             Activate Shortcuts
+;Preferences, Folder
+PrfFld_OwnFiles =   		      Own Files
+PrfFld_OwnFilesSearch =     	...
+PrfFld_OwnFilesSearchT =    	Search
+PrfFld_OwnFilesMax =        	Maximiezed oppening
+PrfFld_OwnFilesMaxT =       	Open own folders always maximized 
+PrfFld_OwnFilesFldN =       	Foldernam (own folders)
+PrfFld_OwnFilesFldNT =      	Double click for changing 
+PrfFld_OwnFilesFldN_C1 =    	Folder
+PrfFld_OwnFilesFldN_C2 =    	Name
+PrfFld_OwnFilesFldN_1 =     	Documents
+PrfFld_OwnFilesFldN_2 =     	Music
+PrfFld_OwnFilesFldN_3 =     	Grafics
+PrfFld_OwnFilesFldN_4 =     	Videos
+PrfFld_InternetPage =         Internet browser startpage (searchengine)
+PrfFld_InternetPageT =      	Shows the search machine and/or the start page
+PrfFld_InternetPageMax =    	Maximized opening
+PrfFld_InternetPageMaxT =   	Always open the internet browser maximized
+;Informationen
+InfAbt_Programming =        	Programing
+;Messages
+TleErr =                    	Error

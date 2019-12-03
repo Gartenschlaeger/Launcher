@@ -1,0 +1,16 @@
+Version 1.04
+- Bugfix: Button unter Einstellungen Arbeitsverzeichnis wird nun deaktiviert bei keiner Auswahl
+- Add:    Escape Taste schliesst alle Fenster
+- Add:    Unter Informationen Programmversion ect anzeigen
+- Bugfix: Mit unnötige Spalten bei ListIconGadgets
+- Add:    Abbrechen Button bei Autorun.inf Assisten hinzugefügt
+- Bugfix: Bei Sourcecode erstellung von Autorun.inf Assistent
+- Bugfix: Bei Versionsangabe von Skins
+- Add:    SysTray Icons werden nun aus IconLibary Launcher/Launcher.icl gelesen
+- Bugfix: Unnötige Gadgets werden nun gespeert bei Startereignisse
+- Bugfix: Sicherheitstyp Einstellungen einmal am Tag sichern wird nun korekt übernommen und angewendet
+
+* Add:    Bereich Sicherheit
+* Bugfix: Zusatztaste bei Tastenkombinationen Namen per Sprache festlegbar
+* Bugfix: Wallpaper können nun auch jpg Grafiken sein und werden automatisch geresized
+* Bugfix: Hilfe korekturen
